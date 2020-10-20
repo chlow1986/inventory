@@ -1,5 +1,8 @@
 # Inventory
 Regov back-end-take-home
+Docker implemented.
+build:: docker build -t inventory .
+run:: docker run -d -p 8080:8080 inventory
 
 Register
 POST http://localhost:8080/register
